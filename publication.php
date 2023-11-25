@@ -2128,7 +2128,8 @@ class PfcPublicationController extends FrontendController
 //                            }
 //                            continue;
 //                        }
-
+ 
+        
 
                         if ((trim($publicationProductData) == 'color2Code')) {
                             $attributeName = "getMainColorDescription";
@@ -2136,6 +2137,7 @@ class PfcPublicationController extends FrontendController
                             $languageData = [];
                             continue;
                         }
+                  
 //                        if ((trim($publicationProductData) == 'cColor2')) {
 //                            if (($productObject->getProductType() == "Model")) {
 //                                $productData [] = $productObject->$name();
